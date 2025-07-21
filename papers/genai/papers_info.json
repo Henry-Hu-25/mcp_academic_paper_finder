@@ -1,0 +1,22 @@
+{
+  "2404.17822v1": {
+    "title": "GenAI Distortion: The Effect of GenAI Fluency and Positive Affect",
+    "authors": [
+      "Xiantong Yang",
+      "Mengmeng Zhang"
+    ],
+    "summary": "The introduction of generative artificial intelligence (GenAI) into\neducational practices has been transformative, yet it brings a crucial concern\nabout the potential distortion of users' beliefs. Given the prevalence of GenAI\namong college students, examining the psychological mechanisms that lead to\nGenAI distortion from both technological factors and the individual's\npsychological processes is a critical priority. A mixed-methods approach is\nemployed to test the proposed hypotheses. Study 1 (N = 10) revealed through\nqualitative analysis that GenAI's fluent outputs significantly engaged college\nstudents, eliciting positive emotional responses during an interaction. GenAI's\ntendency to conflate fact with fiction often led to presentations of\nunrealistic and exaggerated information, potentially distorting users'\nperceptions of reality-a phenomenon termed GenAI distortion. Following these\ninsights, Study 2 (cross-sectional survey, N = 999) and Study 3 (experimental\nmanipulation, N = 175) explored how GenAI fluency affects college students'\nGenAI distortion and examined the mediating effect of positive affect. The\nresults indicated that GenAI fluency predicts GenAI distortion via the\nmediating role of positive affect. Our findings provide theoretical foundations\nand practical implications for understanding GenAI distortion among college\nstudents.",
+    "pdf_url": "http://arxiv.org/pdf/2404.17822v1",
+    "published": "2024-04-27"
+  },
+  "2504.06435v1": {
+    "title": "Human Trust in AI Search: A Large-Scale Experiment",
+    "authors": [
+      "Haiwen Li",
+      "Sinan Aral"
+    ],
+    "summary": "Large Language Models (LLMs) increasingly power generative search engines\nwhich, in turn, drive human information seeking and decision making at scale.\nThe extent to which humans trust generative artificial intelligence (GenAI) can\ntherefore influence what we buy, how we vote and our health. Unfortunately, no\nwork establishes the causal effect of generative search designs on human trust.\nHere we execute ~12,000 search queries across seven countries, generating\n~80,000 real-time GenAI and traditional search results, to understand the\nextent of current global exposure to GenAI search. We then use a preregistered,\nrandomized experiment on a large study sample representative of the U.S.\npopulation to show that while participants trust GenAI search less than\ntraditional search on average, reference links and citations significantly\nincrease trust in GenAI, even when those links and citations are incorrect or\nhallucinated. Uncertainty highlighting, which reveals GenAI's confidence in its\nown conclusions, makes us less willing to trust and share generative\ninformation whether that confidence is high or low. Positive social feedback\nincreases trust in GenAI while negative feedback reduces trust. These results\nimply that GenAI designs can increase trust in inaccurate and hallucinated\ninformation and reduce trust when GenAI's certainty is made explicit. Trust in\nGenAI varies by topic and with users' demographics, education, industry\nemployment and GenAI experience, revealing which sub-populations are most\nvulnerable to GenAI misrepresentations. Trust, in turn, predicts behavior, as\nthose who trust GenAI more click more and spend less time evaluating GenAI\nsearch results. These findings suggest directions for GenAI design to safely\nand productively address the AI \"trust gap.\"",
+    "pdf_url": "http://arxiv.org/pdf/2504.06435v1",
+    "published": "2025-04-08"
+  }
+}

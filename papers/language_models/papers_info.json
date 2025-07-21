@@ -1,0 +1,25 @@
+{
+  "2408.10441v1": {
+    "title": "Goldfish: Monolingual Language Models for 350 Languages",
+    "authors": [
+      "Tyler A. Chang",
+      "Catherine Arnett",
+      "Zhuowen Tu",
+      "Benjamin K. Bergen"
+    ],
+    "summary": "For many low-resource languages, the only available language models are large\nmultilingual models trained on many languages simultaneously. However, using\nFLORES perplexity as a metric, we find that these models perform worse than\nbigrams for many languages (e.g. 24% of languages in XGLM 4.5B; 43% in BLOOM\n7.1B). To facilitate research that focuses on low-resource languages, we\npre-train and release Goldfish, a suite of monolingual autoregressive\nTransformer language models up to 125M parameters for 350 languages. The\nGoldfish reach lower FLORES perplexities than BLOOM, XGLM, and MaLA-500 on 98\nof 204 FLORES languages, despite each Goldfish model being over 10x smaller.\nHowever, the Goldfish significantly underperform larger multilingual models on\nreasoning benchmarks, suggesting that for low-resource languages,\nmultilinguality primarily improves general reasoning abilities rather than\nbasic text generation. We release models trained on 5MB (350 languages), 10MB\n(288 languages), 100MB (166 languages), and 1GB (83 languages) of text data\nwhere available. The Goldfish models are available as baselines, fine-tuning\nsources, or augmentations to existing models in low-resource NLP research, and\nthey are further useful for crosslinguistic studies requiring maximally\ncomparable models across languages.",
+    "pdf_url": "http://arxiv.org/pdf/2408.10441v1",
+    "published": "2024-08-19"
+  },
+  "2310.18862v1": {
+    "title": "Counterfactually Probing Language Identity in Multilingual Models",
+    "authors": [
+      "Anirudh Srinivasan",
+      "Venkata S Govindarajan",
+      "Kyle Mahowald"
+    ],
+    "summary": "Techniques in causal analysis of language models illuminate how linguistic\ninformation is organized in LLMs. We use one such technique, AlterRep, a method\nof counterfactual probing, to explore the internal structure of multilingual\nmodels (mBERT and XLM-R). We train a linear classifier on a binary language\nidentity task, to classify tokens between Language X and Language Y. Applying a\ncounterfactual probing procedure, we use the classifier weights to project the\nembeddings into the null space and push the resulting embeddings either in the\ndirection of Language X or Language Y. Then we evaluate on a masked language\nmodeling task. We find that, given a template in Language X, pushing towards\nLanguage Y systematically increases the probability of Language Y words, above\nand beyond a third-party control language. But it does not specifically push\nthe model towards translation-equivalent words in Language Y. Pushing towards\nLanguage X (the same direction as the template) has a minimal effect, but\nsomewhat degrades these models. Overall, we take these results as further\nevidence of the rich structure of massive multilingual language models, which\ninclude both a language-specific and language-general component. And we show\nthat counterfactual probing can be fruitfully applied to multilingual models.",
+    "pdf_url": "http://arxiv.org/pdf/2310.18862v1",
+    "published": "2023-10-29"
+  }
+}
