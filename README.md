@@ -1,0 +1,12 @@
+- Initialize the project
+    - `uv init`
+- Create virtual environment and activate it:
+    - `uv venv`
+    - `source .venv/bin/activate`
+- Install dependencies:
+    - `uv add mcp arxiv`
+- Launch the inspector:
+    - `npx @modelcontextprotocol/inspector uv run research_server.py`
+- Run the client:
+    - `uv run mcp_chatbot.py`
+
