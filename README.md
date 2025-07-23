@@ -4,7 +4,7 @@
     - `uv venv`
     - `source .venv/bin/activate`
 - Install dependencies:
-    - `uv add mcp arxiv`
+    - `uv add mcp arxiv anthropic nest-asyncio`
 - Launch the inspector:
     - `npx @modelcontextprotocol/inspector uv run research_server.py`
 - Run the client:
