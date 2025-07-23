@@ -23,7 +23,7 @@
 - Render account (free tier available)
 - GitHub repository with your MCP server
 
-### Step 1: Prepare Your Project for Deployment
+### Prepare Your Project for Deployment
 
 1. Ensure Render compatability
     - Create a `requirements.txt` file in your project root:
