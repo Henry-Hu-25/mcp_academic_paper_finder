@@ -1,3 +1,5 @@
+# MCP Standard I/O Deployment
+
 - Initialize the project
     - `uv init`
 - Create virtual environment and activate it:
@@ -5,13 +7,13 @@
     - `source .venv/bin/activate`
 - Install dependencies:
     - `uv add mcp arxiv anthropic nest-asyncio`
-- Launch the inspector:
+- Launch the inspector (Optional):
     - `npx @modelcontextprotocol/inspector uv run research_server.py`
 - Run the client:
     - `uv run mcp_chatbot.py`
 
 
-# MCP Deployment
+# MCP SSE Deployment
 
 ## MCP Inspector
 
