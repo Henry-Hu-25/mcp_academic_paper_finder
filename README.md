@@ -12,7 +12,6 @@
 - Run the client:
     - `uv run mcp_chatbot.py`
 
-
 # MCP SSE Deployment
 
 ## MCP Inspector
